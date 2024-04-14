@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Iniciar Sesión</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+		<script src="{{ url_for('static', filename='main.js') }}"></script>
+	</head>
+	<body>
+		{% include 'flashes.html' %}
+		<form class="form login" style="" method="POST">
+			<h2>Iniciar Sesión</h2>
+			<label for="cedula">Cedúla</label>
+			<input required type="number" name="cedula" />
+			<label for="pass">Contraseña</label>
+			<input required type="password" name="pass" />
+			<div>
+				<input type=checkbox name=show_pass onclick="togglePasswords()"/>
+				<label for=show_pass>Mostrar Contraseña</label>
+			</div>
+			<button class="boton" action="submit">Iniciar Sesión</button>
+			
+			<a href="{{ url_for('recover') }}">Recuperar Contraseña</a>
+		</form>
+	</body>
+</html>

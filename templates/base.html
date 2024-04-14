@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>CrediApp - {{g.title}}</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+		<script src="{{ url_for('static', filename='main.js') }}"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="app-title">CrediApp</div>
+			<ul class="nav">
+				{% if session["type"] == 'Cliente' %}
+				<li>
+					<a href="#">Consultar</a>
+					<ul>
+						<li><a href="{{ url_for('inventario') }}">Información de productos</a></li>
+						<li><a href="{{ url_for('clientes') + '?page=detail&key=' + session['user'] }}">Estado del cliente</a></li>
+						<li><a href="{{ url_for('deudas') + '?cliente=' + session['user'] }}">Calendario de deudas</a></li>
+						<li><a href="{{ url_for('compras') }}">Historial de compras</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Reportes</a>
+					<ul>
+						<li><a href="{{ url_for('deudas') + '?cliente=' + session['user'] + "&export=true" }}">Calendario de deudas</a></li>
+						<li><a href="{{ url_for('compras') + '?cliente=' + session['user'] + "&export=true" }}">Historial de compra</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Ayuda</a>
+					<ul>
+						<li><a href="{{ url_for('help') + '?type=user' }}">Manual de Usuario</a></li>
+					</ul>
+				</li>
+				{% elif session["type"] == 'Empleado' %}
+				<li><a href="{{ url_for('clientes') }}">Clientes</a></li>
+				<li><a href="{{ url_for('empleados') }}">Empleados</a></li>
+				<li><a href="{{ url_for('inventario') }}">Inventario</a></li>
+				<li>
+					<a href="#">Pagos</a>
+					<ul>
+						<li><a href="{{ url_for('compras') }}">Compras</a>
+						<li><a href="{{ url_for('abonos') }}">Abonos</a>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Reportes</a>
+					<ul>
+						<li><a href="{{ url_for('inventario') + "?export=true" }}">Inventario Actual</a></li>
+						<li><a href="{{ url_for('deudas') + "?export=true" }}">Calendario de deudas</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Ayuda</a>
+					<ul>
+						<li><a href="{{ url_for('help') + '?type=user' }}">Manual de Usuario</a></li>
+						<li><a href="{{ url_for('help') + '?type=admin' }}">Manual de Analista</a></li>
+					</ul>
+				</li>
+				{% endif %}
+				<li>
+					<a href="#">Salir</a>
+					<ul>
+						<li><a href="{{url_for('logout')}}">Desconexión del Usuario</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="user">{{session["type"]}} - {{session["name"]}}</div>
+		</nav>
+
+		<div class="container">
+			{% include 'flashes.html' %}
+			{% block content %}
+			<div style="display:flex; justify-content:center; width:100%; height:100%">
+				<span class=app-title style=align-self:center;font-size:2em>CrediApp</span>
+			</div>
+			{% endblock %}
+		</div>
+	</body>
+</html>

@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% block content %}
+<datalist id=productos>
+{% for producto in g.result %}
+	<option value="{{ producto[0] }}">{{ producto[1] }}</option>
+{% endfor %}
+</datalist>
+<datalist id=clientes>
+{% for cliente in g.clientes %}
+	<option value="{{ cliente[0] }}">{{ cliente[1] }}</option>
+{% endfor %}
+</datalist>
+
+<script>
+{% set cols = g.result_columns %}
+let productos = {
+{% for producto in g.result %}
+	{{ producto[cols["id"]] }}: {
+		"cantidad": {{ producto[cols["cantidad_disponible"]] }}, 
+		"precio": {{ producto[cols["precio"]] }},
+	},
+{% endfor %}
+}
+let elegidos = [{id: 0, cantidad: 0}]
+
+function updateTotal() {
+    let total = document.getElementById("total")
+    if (!document.getElementById("compra-form").checkValidity()) {
+	    total.textContent = "Total: 0$"
+        return
+    }
+    sum = elegidos.reduce((v, x) => v + productos[x.id].precio * x.cantidad, 0)
+    total.textContent = "Total: " + sum.toFixed(2) + "$"
+}
+
+function onProductChange(e) {
+	let parent = e.parentElement.parentElement
+	let container = parent.parentElement
+	let i = Array.prototype.indexOf.call(container.children, parent);
+
+	let producto = parent.querySelector("input[name=producto]")
+	let cantidad = parent.querySelector("input[name=cantidad]")
+	let cantidad_label = parent.querySelector("label[for=cantidad]")
+	let producto_label = parent.querySelector("label[for=producto]")
+	id = parseInt(e.value)
+	if (id in productos) { // TODO: Check that it isn't already inputted
+		producto.setCustomValidity("")
+		cantidad.setAttribute("max", productos[id].cantidad)
+		cantidad.removeAttribute("disabled")
+		cantidad_label.textContent = `Cantidad (Quedan: ${productos[id].cantidad})`
+		producto_label.textContent = `ID (Cuesta: ${productos[id].precio})`
+
+		elegidos[i] = {id: id, cantidad: 0}
+	}
+	else {
+		producto.setCustomValidity("El ID del producto no existe")
+		cantidad.setAttribute("max", "")
+		cantidad.setAttribute("disabled", "true")
+		cantidad_label.textContent = "Cantidad"
+		producto_label.textContent = "ID"
+		elegidos[i] = {id: 0, cantidad: 0}
+	}
+	updateTotal()
+}
+function onAmountChange(e) {
+	let parent = e.parentElement.parentElement
+	let cantidad = parent.querySelector("input[name=cantidad]")
+	let container = parent.parentElement
+	let i = Array.prototype.indexOf.call(container.children, parent)
+	
+	let val = parseInt(e.value)
+	elegidos[i].cantidad = isNaN(val) ? 0 : val;
+	
+	if (elegidos[i].cantidad > parseInt(cantidad.getAttribute("max")))
+		cantidad.setCustomValidity("La cantidad del producto no puede ser mas de la disponible.")
+	else
+		cantidad.setCustomValidity("")
+	updateTotal()
+}
+</script>
+{% macro producto() %}
+	<div class=item-field>
+		<label for=producto>ID</label>
+		<input oninput="onProductChange(this)" placeholder="Ingresar Nombre o ID" pattern="[1-9][0-9]*" name=producto list=productos required />
+	</div>
+	<div class=item-field>
+		<label for=cantidad>Cantidad</label>
+		<input oninput="onAmountChange(this)" disabled=true name=cantidad pattern="[1-9][0-9]*" required />
+	</div>
+{% endmacro %}
+
+<script>
+function add() {
+	let element = stringToHTML(`
+		<div class="item-fields producto">
+			{{ producto() }}
+		</div>
+	`)
+	let elems = document.getElementsByClassName("producto")
+	elems[elems.length - 1].insertAdjacentElement("afterend", element)
+	elegidos.push(null)
+}
+function remove() {
+	let elems = document.getElementsByClassName("producto")
+	if (elems.length > 1) {
+		elems[elems.length - 1].remove()
+		elegidos.splice(elems.length, 1)
+	}
+}
+</script>
+
+<h1>Registrar Compra</h1>
+<form class="form" method="POST" id=compra-form>
+	<h3>Datos</h3>
+	<div class=item-fields>
+		<div class=item-field>
+			<label for=cliente>Cedula del Cliente</label>
+			<input placeholder="Ingresar Nombre o Cedula" name=cliente type=text pattern="[1-9][0-9]*" list=clientes required />
+		</div>
+		<div class=item-field>
+			<label for=fecha_limite>Fecha Limite de Pago</label>
+			<input name=fecha_limite type=date id=limite required />
+		</div>
+	</div>
+	<div class=separator></div>
+	<h3>Productos</h3>
+	<div>
+        	<div class="item-fields producto">
+        		{{ producto() }}
+        	</div>
+	</div>
+	<div class="register-options">
+		<div class=boton onclick=add()>Añadir</div>
+		<div class=boton onclick=remove()>Quitar</div>
+	</div>
+	<div class=separator></div>
+	<div id=total>Total: 0$</div>
+	<input type=hidden name=action value=create />
+	<input class=boton type=submit value="Registrar {{ table }}" />
+</form>
+<script>
+	let date = new Date().toISOString().slice(0, 10)
+	let limite = document.getElementById("limite")
+	limite.value = date
+	limite.min = date
+</script>
+{% endblock %}

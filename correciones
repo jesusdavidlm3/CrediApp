@@ -1,0 +1,1814 @@
+Hunspell 1.7.2
+& c 15 3: ca, ce, oc, cl, cu, cm, cf, ch, a, e, o, i, d, u, ó
+*
+& cc 9 13: ca, ce, oc, cl, cu, cm, cf, ch, dicc
+*
+*
+*
+*
+& acd 4 36: avd, ad, acá, acoda
+& dbe 4 41: de, be, debe, d be
+*
+& ecac 4 51: ceca, cace, acaece, caca
+*
+*
+
+*
+
+& info 7 3: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+& pattern 4 3: paterno, paternal, paternóster, patera
+
+& pattern 4 3: paterno, paternal, paternóster, patera
+
+& ff 7 3: fa, fe, ef, fo, cf, fu, uf
+
+& hair 4 3: huir, ha ir, ha-ir, chaira
+
+& static 3 3: sta tic, sta-tic, aticista
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+# xlsx 10
+
+& rb 6 3: rob, ra, re, ro, ob, ib
+
+& application 1 3: aplicativo
+& vnd 2 15: vid, vendí
+& openxmlformats 1 19: reformatorios
+& officedocument 1 34: documentalmente
+# spreadsheetml 49
+& sheet 1 63: sanchete
+
+& Content 10 3: Contenta, Contente, Contento, Contentó, Contenté, Contené, Contentivo, Contener, Contenido, Contender
+& Disposition 2 11: Dispositivo, Dispositiva
+
+& attachment 1 3: atentamente
+& filename 3 14: filen ame, filen-ame, finamente
+& title 5 24: titile, titule, titee, tille, tiple
+# xlsx 31
+
+& db 9 3: d, da, de, do, ob, di, ib, dí, dé
+& credito 5 6: crédito, cerdito, acredito, cedrito, crepito
+& db 9 14: d, da, de, do, ob, di, ib, dí, dé
+
+& url 2 4: uro, burla
+& add 5 8: dad, ad, adv, avd, ad d
+
+& utf 2 4: uf, uta
+
+
+& key 5 6: ley, rey, dey, bey, hockey
+& value 8 12: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& key 5 5: ley, rey, dey, bey, hockey
+
+
+& key 5 5: ley, rey, dey, bey, hockey
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& key 5 6: ley, rey, dey, bey, hockey
+& value 8 12: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& type 4 4: tupe, tape, tepe, tope
+
+& type 4 4: tupe, tape, tepe, tope
+
+& type 4 4: tupe, tape, tepe, tope
+
+& text 3 4: texto, test, textil
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+*
+
+*
+
+& limit 5 4: limita, limite, limito, limitó, limité
+*
+
+& x 11 5: ax, ex, xi, a, e, o, i, d, u, ó, y
+& f 15 9: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+
+& C 15 4: CD, A, E, O, I, D, U, Ó, Y, Ca, Ce, Oc, Cl, Cu, Cm
+& V 15 6: Vd, A, E, O, I, D, U, Ó, Y, Va, Av, Ve, Vi, Vs, Bv
++ cedular
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+& sql 3 4: sal, sol, sil
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& value 8 11: valué, valúe, vale, valse, valle, vague, valuó, vaque
+
+
+& sql 3 4: sal, sol, sil
+
+& sql 3 4: sal, sol, sil
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& sql 3 4: sal, sol, sil
+
+& db 9 4: d, da, de, do, ob, di, ib, dí, dé
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& SQL 3 4: SAL, SOL, SIL
+& Template 11 8: Emplate, Templare, Templaste, Templete, Templase, Templa te, Templa-te, Templa, Emplaste, Emplatare, Emplata
+& Arguments 9 17: Argumenta, Argumentas, Argumentes, Argumentos, Argumente, Argumento, Argumentó, Argumenté, Argumentista
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& SQL 3 4: SAL, SOL, SIL
+& Arguments 9 8: Argumenta, Argumentas, Argumentes, Argumentos, Argumente, Argumento, Argumentó, Argumenté, Argumentista
+
+& sql 3 4: sal, sol, sil
+
+& sql 3 4: sal, sol, sil
+
+& SQL 3 4: SAL, SOL, SIL
+& Queries 6 8: Quieres, Quiries, Quermes, Quereres, Pesquerir, Periquees
+
+& Query 3 4: Quera, Queré, Querer
+
+& columns 2 5: columna, columnas
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+& html 1 9: light
+
+& detail 1 4: detalla
+
+& detail 1 4: detalla
+& html 1 11: light
+
+& register 5 4: registre, registe, registro, registra, preteriste
+
+& register 5 4: registre, registe, registro, registra, preteriste
+& html 1 13: light
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+
+*
+*
+
+& detail 1 4: detalla
+
+*
++ detallar
+*
+
+& register 5 4: registre, registe, registro, registra, preteriste
+
+*
+
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& sql 3 4: sal, sol, sil
+
+& sql 3 4: sal, sol, sil
+
+& page 11 4: pega, pagel, pague, paga, pare, pago, pase, pace, pape, pagó, paje
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+
+& page 11 4: pega, pagel, pague, paga, pare, pago, pase, pace, pape, pagó, paje
+& type 4 9: tupe, tape, tepe, tope
+
+& detail 1 4: detalla
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& sql 3 4: sal, sol, sil
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& utf 2 4: uf, uta
+
+& select 3 4: selecta, selecto, selectivo
+& id 15 11: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
++ montar
+*
+& from 1 28: romo
++ pago
+& where 1 39: herede
+*
+*
+
+*
+
+& db 9 4: d, da, de, do, ob, di, ib, dí, dé
+*
++ compra
+& sql 3 21: sal, sol, sil
+
+*
+
+& update 1 4: date
++ pago
+*
+*
+& null 3 31: nula, nulo, nullius
+*
+& where 1 48: herede
+& id 15 54: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& insert 7 4: inserta, inserte, inserto, insertó, inserté, inserí, inserir
+& into 13 11: nito, unto, insto, cinto, tinto, pinto, finto, Pinto, tino, indo, in to, in-to, intento
++ pago
+*
++ montar
+*
+& values 8 44: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+
+& update 1 4: date
++ pago
+*
++ montar
+& where 1 31: herede
+& id 15 37: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+*
+
+*
+
+*
++ producto
+*
++ deber
++ repetir
+
+& select 3 4: selecta, selecto, selectivo
+*
+*
++ disponer
+*
+& from 1 47: romo
++ producto
+& where 1 62: herede
+& id 15 68: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& and 7 75: ad, anda, ande, ando, dan, ano, avd
++ anular
+
+*
+*
+*
+*
+& ID 15 23: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
++ producto
+*
+*
++ existir
+
+& f 15 5: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+*
++ quedar
+& result 6 20: resulta, resulte, resulto, resultó, resulté, resuelto
+& if 9 32: uf, i, ef, ir, in, is, cf, ib, NIF
+& result 6 35: resulta, resulte, resulto, resultó, resulté, resuelto
+& else 8 45: eles, lees, ele, ese, elle, el se, el-se, elipse
+*
++ quedar
++ unidad
+*
+*
+*
+& ID 15 89: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
++ producto
+*
+*
+*
++ pedir
++ cantidad
+*
+
+& db 9 4: d, da, de, do, ob, di, ib, dí, dé
++ cliente
+& sql 3 16: sal, sol, sil
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
+
+*
+
++ pasada
+
++ pasada
+
+*
+
++ limitar
+& credito 5 11: crédito, cerdito, acredito, cedrito, crepito
+
+*
+*
++ exceder
+*
++ limitar
+*
+& credito 5 34: crédito, cerdito, acredito, cedrito, crepito
+*
+*
+
+& insert 7 4: inserta, inserte, inserto, insertó, inserté, inserí, inserir
+& into 13 11: nito, unto, insto, cinto, tinto, pinto, finto, Pinto, tino, indo, in to, in-to, intento
++ compra
+*
+*
++ limitar
+*
+*
+& values 8 61: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+*
+& now 3 80: no, non, nos
+
+*
+
+*
++ limitar
+
+& insert 7 4: inserta, inserte, inserto, insertó, inserté, inserí, inserir
+& into 13 11: nito, unto, insto, cinto, tinto, pinto, finto, Pinto, tino, indo, in to, in-to, intento
+*
++ producto
+*
+*
+*
+*
+*
+& values 8 78: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+
+& update 1 4: date
++ producto
+*
+*
++ disponer
+*
++ disponer
+& where 1 71: herede
+& id 15 77: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+*
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& select 3 4: selecta, selecto, selectivo
+*
+& from 1 19: romo
++ compra
+& where 1 32: herede
+& id 15 38: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& update 1 4: date
++ pago
+*
+*
+& null 3 30: nula, nulo, nullius
+*
+
+& select 3 4: selecta, selecto, selectivo
+*
+*
+& from 1 30: romo
+*
++ producto
+& where 1 52: herede
+*
+
+& update 1 4: date
++ producto
+*
+*
++ disponer
+*
++ disponer
+& where 1 71: herede
+& id 15 77: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+& from 1 11: romo
+*
++ producto
+& where 1 33: herede
+*
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+& from 1 11: romo
++ compra
+& where 1 24: herede
+& id 15 30: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
++ montar
+
+*
++ montar
+*
+*
++ tener
+*
+*
+*
+
+& select 3 4: selecta, selecto, selectivo
+& from 1 13: romo
++ usuario
+& where 1 27: herede
++ cedular
+& and 7 44: ad, anda, ande, ando, dan, ano, avd
+*
+*
+
+*
+
+*
+
+& insert 7 4: inserta, inserte, inserto, insertó, inserté, inserí, inserir
+& into 13 11: nito, unto, insto, cinto, tinto, pinto, finto, Pinto, tino, indo, in to, in-to, intento
++ pago
+*
++ montar
+& values 8 38: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+
+*
+
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+& login 4 4: logia, logis, lo gin, lo-gin
+
+*
+
+*
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& select 3 4: selecta, selecto, selectivo
+& hash 1 11: has
+& pass 11 16: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+*
+*
+& from 1 35: romo
++ usuario
+& where 1 49: herede
++ cedular
+& and 7 66: ad, anda, ande, ando, dan, ano, avd
++ anular
+
++ cedular
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& user 8 4: use, ser, usier, usar, eser, usen, uses, u ser
+
++ cedular
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& type 4 4: tupe, tape, tepe, tope
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+*
+*
++ correcta
+
+*
+
+*
+*
+
+& login 4 4: logia, logis, lo gin, lo-gin
+& html 1 10: light
+
+*
+
+& png 3 7: pg, ing, pág
+& jpg 1 11: pg
+& gif 4 15: fig, gin, gis, gil
+
+*
+
+*
+
+& images 3 4: imagen, imanes, imagines
+
+& static 3 4: sta tic, sta-tic, aticista
+
+& wb 3 4: web, ob, ib
+
+*
+*
++ tener
+*
+*
+*
+*
+
+
+
+
+& insert 7 4: inserta, inserte, inserto, insertó, inserté, inserí, inserir
+& into 13 11: nito, unto, insto, cinto, tinto, pinto, finto, Pinto, tino, indo, in to, in-to, intento
++ tablar
+& columns 2 25: columna, columnas
+& values 8 35: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+& values 8 43: valúes, vales, valses, valles, vagues, vaques, val ues, val-ues
+
+
+& x 11 5: ax, ex, xi, a, e, o, i, d, u, ó, y
+& x 11 12: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+& update 1 4: date
++ tablar
+*
+& update 1 24: date
+& args 4 31: argos, aras, ares, aros
+& where 1 37: herede
+& id 15 44: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& column 1 47: columna
+& id 15 59: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& column 1 62: columna
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+& from 1 11: romo
++ tablar
+& where 1 24: herede
+& id 15 31: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& column 1 34: columna
+
+& action 2 4: actinio, acantio
+
+& action 2 4: actinio, acantio
+
+& create 13 4: caerte, creare, reate, crearte, creaste, recate, crease, crea te, crea-te, cateare, cratera, crea, chateare
+
+*
+& habia 10 7: había, haba, habita, habida, rabia, sabia, hacia, habla, labia, habiz
+*
+& name 13 17: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+*
+*
+*
+& id 15 37: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& column 1 40: columna
+*
+*
+*
+*
+*
+*
++ dato
++ enviado
+
+*
+*
+*
+*
+& name 13 33: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
++ eliminar
+*
+*
+& name 13 32: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& update 1 4: date
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+*
++ contraseña
+*
+*
++ igual
+
+& hash 1 4: has
+& pass 11 9: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+& pass 11 4: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+& repeat 2 9: repatea, reata
+
+*
+& pass 11 9: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+*
+& pass 11 9: pasa, pasas, pases, pasos, pase, paso, pasó, país, pasé, aspas, aspa
+
+*
+
+& action 2 4: actinio, acantio
+
+& create 13 4: caerte, creare, reate, crearte, creaste, recate, crease, crea te, crea-te, cateare, cratera, crea, chateare
+
+*
+
+*
+
+& select 3 4: selecta, selecto, selectivo
++ cedular
+& from 1 18: romo
++ usuario
+& where 1 32: herede
+*
+*
+& and 7 55: ad, anda, ande, ando, dan, ano, avd
++ cedular
+& and 7 70: ad, anda, ande, ando, dan, ano, avd
++ anular
+
++ cedular
+
+& action 2 4: actinio, acantio
+
++ anular
+
++ usuario
+
++ cedular
+
+*
+*
+*
+*
+*
+
+& action 2 4: actinio, acantio
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+
+*
+
+*
+
+& select 3 4: selecta, selecto, selectivo
+& count 1 11: conjunto
++ cedular
+& from 1 25: romo
++ usuario
+& where 1 39: herede
+*
+*
+
+*
+*
+*
+*
++ todo
+*
++ empleado
+
+*
+
+*
+
+& action 2 4: actinio, acantio
+
++ usuario
+
++ cedular
+
++ anular
+
+*
++ eliminar
+*
+*
+*
+
+*
+
++ usuario
+
++ cedular
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
++ tablar
+
+*
+
+& default 1 4: defrauda
+& image 3 12: imagen, imane, imagine
+
+& profile 3 4: pro file, pro-file, profilaxis
+& svg 1 12: sig
+
+& image 3 4: imagen, imane, imagine
+& index 6 10: indexa, indexe, indexo, indexó, indexé, indemne
+
+& password 1 4: pasador
+
+& fields 2 4: fieles, fiel
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
++ cedular
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& REQUIRE 5 5: REQUIERE, REQUISE, REQUIVE, REQUIRENTE, REQUISARE
+& POSITIVE 2 13: POSITIVA, POSITIVO
+& NUMBER 1 22: NUMERA
+& required 1 30: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+*
+
+& main 3 4: man, mina, amaina
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& required 1 4: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+*
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& telefono 2 4: teléfono, telefoneo
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& direccion 1 4: dirección
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
++ limitar
+& credito 5 11: crédito, cerdito, acredito, cedrito, crepito
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
++ limitar
+*
+& Credito 5 14: Crédito, Cerdito, Acredito, Cedrito, Crepito
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& REQUIRE 5 5: REQUIERE, REQUISE, REQUIVE, REQUIRENTE, REQUISARE
+*
+& NUMBER 1 21: NUMERA
+& required 1 29: requerir
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
++ tener
+*
+
++ tener
+& x 11 12: ax, ex, xi, a, e, o, i, d, u, ó, y
+& f 15 16: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+*
++ bono
+
+*
+& x 11 11: ax, ex, xi, a, e, o, i, d, u, ó, y
+& or 15 13: ro, ir, o, ora, ore, oro, sor, mor, por, oró, orí, oír, oré, ar, os
+& f 15 21: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+*
+*
+*
+*
+*
+*
++ limitar
+
+& x 11 5: ax, ex, xi, a, e, o, i, d, u, ó, y
++ deuda
+*
+*
+*
+*
+*
+*
++ limitar
+
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& page 11 4: pega, pagel, pague, paga, pare, pago, pase, pace, pape, pagó, paje
+
+& detail 1 4: detalla
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& user 8 4: use, ser, usier, usar, eser, usen, uses, u ser
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& editable 7 8: evitable, edita ble, edita-ble, dubitable, imitable, habitable, tableta
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& erasable 6 8: era sable, era-sable, esperable, rastreable, sabalera, superable
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+*
+
+*
+
+& detail 1 4: detalla
+
+& client 3 4: clienta, cliente, caliente
+& detail 1 11: detalla
+& html 1 18: light
+
++ cliente
+
++ cliente
+& sql 3 13: sal, sol, sil
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
++ tablar
+
+*
+
+& default 1 4: defrauda
+& image 3 12: imagen, imane, imagine
+
+& profile 3 4: pro file, pro-file, profilaxis
+& svg 1 12: sig
+
+& image 3 4: imagen, imane, imagine
+& index 6 10: indexa, indexe, indexo, indexó, indexé, indemne
+
+& password 1 4: pasador
+
+& fields 2 4: fieles, fiel
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
++ cedular
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& REQUIRE 5 5: REQUIERE, REQUISE, REQUIVE, REQUIRENTE, REQUISARE
+& POSITIVE 2 13: POSITIVA, POSITIVO
+& NUMBER 1 22: NUMERA
+& required 1 30: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+*
+
+& main 3 4: man, mina, amaina
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& required 1 4: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+*
+
+& filter 4 4: filtre, fil ter, fil-ter, filtrante
+& fields 2 11: fieles, fiel
+
++ cedular
+
+*
+
+*
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+*
+
+*
+
++ empleado
+
++ empleado
+& sql 3 14: sal, sol, sil
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+*
+& sql 3 15: sal, sol, sil
+
+& id 15 4: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& ID 15 4: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
+
+*
+
+*
+
+*
++ disponer
+
+*
++ disponer
+
+& id 15 4: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+*
+*
+
+& ID 15 4: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
+*
+*
+
+*
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& sql 3 4: sal, sol, sil
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
++ tablar
+
+*
+
+& default 1 4: defrauda
+& image 3 12: imagen, imane, imagine
+
+& product 5 4: producto, produce, producí, productivo, producir
+& svg 1 12: sig
+
+& image 3 4: imagen, imane, imagine
+& index 6 10: indexa, indexe, indexo, indexó, indexé, indemne
+
+& fields 2 4: fieles, fiel
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
+
+& secondary 1 4: secundario
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+& ID 15 4: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
+*
+*
+& x 11 20: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+*
+
+& main 3 4: man, mina, amaina
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& required 1 4: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+& x 11 12: ax, ex, xi, a, e, o, i, d, u, ó, y
+& f 15 16: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& REQUIRE 5 5: REQUIERE, REQUISE, REQUIVE, REQUIRENTE, REQUISARE
+*
+& NUMBER 1 21: NUMERA
+& required 1 29: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+*
++ disponer
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+*
++ disponer
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+& x 11 9: ax, ex, xi, a, e, o, i, d, u, ó, y
++ disponer
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& pattern 4 4: paterno, paternal, paternóster, patera
+& required 1 21: requerir
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
+& ID 15 4: VAYAN, ÍD, DI, IS, I, D, IDA, IDO, CID, LID, VID, AD, ED, IR, IN
+*
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& id 15 4: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+*
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& editable 7 8: evitable, edita ble, edita-ble, dubitable, imitable, habitable, tableta
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+*
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& erasable 6 8: era sable, era-sable, esperable, rastreable, sabalera, superable
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+& action 2 4: actinio, acantio
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+
+& update 1 4: date
++ producto
+*
++ anular
+& where 1 37: herede
+& id 15 43: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+*
++ eliminar
+*
+*
+*
+
+*
+
+*
+
++ producto
+
+& id 15 4: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& export 6 4: exporta, exporte, exporto, exportó, exporté, experto
+
++ producto
+
+*
+& sql 3 15: sal, sol, sil
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
++ compra
+& sql 3 12: sal, sol, sil
+
+*
+
+*
+*
++ producto
+
+*
+*
+
+*
+*
+*
+
+*
++ limitar
+
+*
++ limitar
+*
+*
+
+*
+
++ montar
+*
+
++ montar
+*
+
++ montar
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
++ cedular
+
++ cedular
+*
+
+*
+
++ nombre
+*
+
+*
+*
++ compra
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+
++ compra
+& sql 3 12: sal, sol, sil
+
+& register 5 4: registre, registe, registro, registra, preteriste
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+*
+& sql 3 15: sal, sol, sil
+
++ cliente
+
++ cliente
+& sql 3 13: sal, sol, sil
+
+& detail 1 4: detalla
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
++ compra
+& sql 3 12: sal, sol, sil
+
++ producto
+
+*
++ producto
+& sql 3 21: sal, sol, sil
+
++ pago
+
+*
++ pago
+& sql 3 17: sal, sol, sil
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+
+& list 9 4: lis, lista, liste, listo, listó, listé, lisa, liso, litis
+& html 1 9: light
+
+& register 5 4: registre, registe, registro, registra, preteriste
+
+& register 5 4: registre, registe, registro, registra, preteriste
+*
+& html 1 20: light
+
+& detail 1 4: detalla
+
+& detail 1 4: detalla
+*
+& html 1 18: light
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& fields 2 4: fieles, fiel
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+
+& main 3 4: man, mina, amaina
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+*
+& x 11 15: ax, ex, xi, a, e, o, i, d, u, ó, y
++ producto
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+
+& main 3 4: man, mina, amaina
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+*
+& x 11 17: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+& x 11 8: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
++ montar
+*
+& x 11 17: ax, ex, xi, a, e, o, i, d, u, ó, y
+& f 15 21: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+& x 11 13: ax, ex, xi, a, e, o, i, d, u, ó, y
+& or 15 15: ro, ir, o, ora, ore, oro, sor, mor, por, oró, orí, oír, oré, ar, os
+& f 15 23: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
++ tablar
+
+*
+
+& default 1 4: defrauda
+& image 3 12: imagen, imane, imagine
+
+& buy 12 4: bu, uy, buey, buyo, bey, bus, cuy, bum, muy, huy, Tuy, bu y
+& svg 1 8: sig
+
++ erar
+& verb 7 10: ver, verba, verbo, vera, vero, verá, veré
+
+*
+
+& sql 3 4: sal, sol, sil
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& editable 7 8: evitable, edita ble, edita-ble, dubitable, imitable, habitable, tableta
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+*
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& searchable 1 8: charlear
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+& erasable 6 8: era sable, era-sable, esperable, rastreable, sabalera, superable
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+
+& sql 3 4: sal, sol, sil
+
+*
+
+& user 8 4: use, ser, usier, usar, eser, usen, uses, u ser
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& action 2 4: actinio, acantio
+
+& create 13 4: caerte, creare, reate, crearte, creaste, recate, crease, crea te, crea-te, cateare, cratera, crea, chateare
+
+*
+*
+*
++ realizar
+*
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+
+*
+*
+*
++ revertir
+*
+*
++ pago
+*
+*
+*
+*
+*
++ liberar
+
+& export 6 4: exporta, exporte, exporto, exportó, exporté, experto
+
+& page 11 4: pega, pagel, pague, paga, pare, pago, pase, pace, pape, pagó, paje
+
++ compra
+
+& sql 3 4: sal, sol, sil
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+& result 6 4: resulta, resulte, resulto, resultó, resulté, resuelto
+
+*
+*
++ deuda
+& sql 3 25: sal, sol, sil
+
+*
+*
+
+*
+*
+*
+
+*
++ limitar
+
+*
++ limitar
+*
+*
+
+*
+
++ montar
+*
+
++ montar
+*
+
++ montar
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+*
+
++ cedular
+*
+
+*
+*
++ deuda
+
+
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+*
+
+& user 8 4: use, ser, usier, usar, eser, usen, uses, u ser
+
+& select 3 4: selecta, selecto, selectivo
+*
+& from 1 18: romo
++ usuario
+& where 1 32: herede
++ cedular
+
+*
+
+& sql 3 4: sal, sol, sil
+
+*
+
+*
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
+*
+
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+& type 4 4: tupe, tape, tepe, tope
+
+& export 6 4: exporta, exporte, exporto, exportó, exporté, experto
+
+*
+*
++ deuda
+
+*
+*
++ deuda
+& html 1 25: light
+
+*
+*
++ deuda
+& sql 3 25: sal, sol, sil
+
+
+& GET 7 4: GE, ET, GEN, GES, SET, GEL, GENTE
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& template 11 4: templare, emplate, templaste, templete, templase, templa te, templa-te, templa, emplaste, emplatare, emplata
+
++ erar
+& verb 7 10: ver, verba, verbo, vera, vero, verá, veré
+
+*
+
++ tablar
+
++ bono
+
+& default 1 4: defrauda
+& image 3 12: imagen, imane, imagine
+
+& payment 1 4: palmenta
+& svg 1 12: sig
+
+& fields 2 4: fieles, fiel
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
++ cedular
+*
+
+& name 13 4: mane, nema, mame, ame, amen, nace, lame, nade, dame, nave, jame, ñame, mena
+
+*
+
+& type 4 4: tupe, tape, tepe, tope
+
+& number 1 4: numera
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& required 1 4: requerir
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& label 9 4: lambel, rabel, babel, la bel, la-bel, sabela, gabela, tabella, abellaca
+
++ montar
+
+*
+
+& main 3 4: man, mina, amaina
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+*
++ montar
+*
+& x 11 23: ax, ex, xi, a, e, o, i, d, u, ó, y
+& f 15 27: d, fa, fe, ef, fo, cf, fu, uf, a, e, o, i, u, ó, y
+
+& attributes 4 4: tributes, tributantes, tributares, atribulares
+
+& pattern 4 4: paterno, paternal, paternóster, patera
+& required 1 31: requerir
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+*
+
+& main 3 4: man, mina, amaina
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
++ realizar
+*
+& x 11 18: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
+*
+*
+*
+*
+*
+
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& info 7 4: indo, ninfo, inflo, fino, in fo, in-fo, informo
+
+*
+
+& secondary 1 4: secundario
+
+& format 6 4: formar, forma, formato, forman, formas, formal
+
++ realizar
+*
+*
+*
+& x 11 30: ax, ex, xi, a, e, o, i, d, u, ó, y
+
+*
+& editable 7 8: evitable, edita ble, edita-ble, dubitable, imitable, habitable, tableta
+
+& POST 9 4: POS, POSTA, POSTE, POSA, POSE, POSO, POSÓ, POSÉ, POSTOR
+
+& action 2 4: actinio, acantio
+
+& create 13 4: caerte, creare, reate, crearte, creaste, recate, crease, crea te, crea-te, cateare, cratera, crea, chateare
+
+*
++ realizar
+*
+*
+*
+
+& action 2 4: actinio, acantio
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& id 15 4: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+& key 5 4: ley, rey, dey, bey, hockey
+
+& select 3 4: selecta, selecto, selectivo
+*
+& from 1 18: romo
++ pago
+& where 1 29: herede
+& id 15 35: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& id 15 41: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+*
+*
+*
+*
++ pago
+*
+*
+& esten 11 41: estén, entes, este, resten, testen, gesten, tesen, ester, están, es ten, es-ten
++ asignado
+*
++ alguno
+*
+
+& delete 10 4: deleite, delate, pelete, velete, dele te, dele-te, deletree, dentelle, dele, tendel
+& from 1 11: romo
++ pago
+& where 1 22: herede
+& id 15 28: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+& id 15 34: vayan, íd, di, is, i, d, ida, ido, cid, lid, vid, ad, ed, ir, in
+
+*
+& revertio 4 7: revertió, revertido, revierto, revertir
+*
+*
+*
+
++ bono
+
++ pago
+& sql 3 10: sal, sol, sil
+
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+
+*
+& html 1 9: light
+
+
+& index 6 4: indexa, indexe, indexo, indexó, indexé, indemne
+
+& main 3 6: man, mina, amaina
+
+

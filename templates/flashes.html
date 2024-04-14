@@ -1,0 +1,15 @@
+{% with messages = get_flashed_messages(with_categories=True) %} 
+	{% if messages %}
+		<div class="messages">
+			<img
+			class="small-img"
+			src="{{url_for('static', filename='info.svg')}}"
+			/>
+			<ul>
+			{% for category, message in messages %}
+			<li class="message {{ category }}">{{ message }}</li>
+			{% endfor %}
+			</ul>
+		</div>
+	{% endif %} 
+{% endwith %} 

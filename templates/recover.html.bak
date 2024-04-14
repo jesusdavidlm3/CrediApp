@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Recuperación de Contraseña</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+		<script src="{{ url_for('static', filename='main.js') }}"></script>
+	</head>
+	<body>
+		{% include 'flashes.html' %}
+		<form class="form login" style="" method="POST">
+			<h2>Recuperar Contraseña</h2>
+			{% if request.args.get("uuid") %}
+				<label for="pass">Contraseña</label>
+				<input required type="password" name="pass" />
+				<label for="pass_repeat">Repetir Contraseña</label>
+				<input required type="password" name="pass_repeat" />
+				<div>
+					<input type=checkbox name=show_pass onclick="togglePasswords()"/>
+					<label for=show_pass>Mostrar Contraseña</label>
+				</div>
+				<input type=hidden name=uuid value="{{ request.args['uuid'] }}" />
+			{% else %}
+				<label for="cedula">Cedúla</label>
+				<input required name="cedula" type=number />
+			{% endif %}
+			<button class="boton" action="submit">Recuperar Contraseña</button>
+			<a href="{{ url_for('login') }}">Iniciar Sesión</a>
+		</form>
+	</body>
+</html>

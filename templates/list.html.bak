@@ -1,0 +1,43 @@
+{% extends 'base.html' %} 
+{% block content %}
+<h1>{{g.title}}</h1>
+
+<div class="container-options">
+	{% block options %}
+		{% if not non_mutable %}
+			<a class="boton" href="{{ [request.url, {'page': 'register'}]|url_add }}">Registrar {{ table }}</a>
+		{% endif %}
+		{% block extra_options %}{% endblock %}
+{% 		if not non_searchable %}
+		<form>
+			<input type=text name=filter_value value='{{ request.args.get("filter_value") or "" }}' required />
+			<button class=boton action=submit>Filtrar</button>
+		</form>
+{% 		endif %}
+	{% endblock %}
+</div>
+
+<div class="item-container">
+	{% if not g.result|length %}
+		<h2>No hay ningun{{ "a" if table[-1] == "a" else "" }} {{ table|lower }}.</h2>
+{% endif %}
+	{% for row in g.result %}
+	<a class="item" href="{{ [request.url, { 'page':'detail', 'key': row[key_index or 0] }]|url_add }}">
+	{% block item scoped %}
+		<img
+			src="static/{{ (image_index and row[image_index]) or default_image }}"
+			class="medium-img"
+		/>
+		{% for field in [fields, "main"]|show %}
+			<span class="item-main-field">{{ [row, field, fields]|format }}</span>
+		{% endfor %}
+		{% for field in [fields, "secondary"]|show %}
+			{% if [row, field, fields]|format %}
+				<span class="item-secondary-field">{{ [row, field, fields]|format }}</span>
+			{% endif %}
+		{% endfor %}
+	{% endblock %}
+	</a>
+	{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Iniciar Sesión</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+		<script src="{{ url_for('static', filename='main.js') }}"></script>
+	</head>
+	<body>
+		<script>
+		function help() {
+			Popup(stringToHTML(`
+				<div>
+					<h1>Ayuda para registrarse</h1>
+					<p>Si es un cliente, debe dirigirse a la tienda física y pedirle a un empleado que lo registre en el sistema de crédito.</p>
+					<p>Si es un empleado, pidale a su jefe o el empleado que maneja el sistema de crédito que lo registre como empleado para manejar el sistema de crédito</p>
+					<button class=boton style=align-self:center onclick="removePopup()">Aceptar</button>
+				</div>
+			`))
+		}
+		</script>
+		{% include 'flashes.html' %}
+		<form class="form login" style="" method="POST">
+			<h2>Iniciar Sesión</h2>
+			<label for="cedula">Cédula</label>
+			<input required type="number" name="cedula" />
+			<label for="pass">Contraseña</label>
+			<input required type="password" name="pass" />
+			<div>
+				<input type=checkbox name=show_pass onclick="togglePasswords()"/>
+				<label for=show_pass>Mostrar Contraseña</label>
+			</div>
+			<button class="boton" action="submit">Iniciar Sesión</button>
+			
+			<a href="{{ url_for('recover') }}">Recuperar Contraseña</a>
+			<div class=boton style=font-size:0.8em onclick="help()">¿Desea Registrarse?</div>
+		</form>
+	</body>
+</html>

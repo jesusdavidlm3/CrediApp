@@ -1,0 +1,25 @@
+{% macro field_to_input(fields, values) %}
+	<h3>Datos</h3>
+	<div class=item-fields>
+	{% for field in fields if not ((page_type == "edit" and "key" in field) or ("info" in field)) %}
+		<div class=item-field>
+			<label for="{{ field|name }}">{{ field["label"] }}</label>
+			<input type="{{ field|type }}"
+				name="{{ field|name }}"
+				{{ 'value="' + values[[fields, field]|index]|string + '"' if values else "" }} 
+				{{ field["attributes"] if "attributes" in field }}
+				/>
+		</div>
+	{% endfor %}
+	</div>
+{% endmacro %}
+	
+{% macro field_form(fields, values) %}
+	{{ field_to_input(fields, values) }}
+	{% if password %}
+		{% include 'password-form.html' %}
+	{% endif %}
+	{% if image_index %}
+		{% include 'image-form.html' %}
+	{% endif %}
+{% endmacro %} 

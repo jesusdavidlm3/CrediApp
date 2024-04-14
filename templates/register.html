@@ -1,0 +1,10 @@
+{% extends 'base.html' %} 
+{% import 'common.jinja' as common with context %}
+{% block content %}
+<h1>Registrar {{table}}</h1>
+<form class="form" method="POST" enctype="multipart/form-data">
+	{{ common.field_form(fields, None) }}
+	<input type=hidden name=action value=create />
+	<input class=boton type=submit value="Registrar {{table}}" />
+</form>
+{% endblock %}

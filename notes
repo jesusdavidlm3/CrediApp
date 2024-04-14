@@ -1,0 +1,1 @@
+Registrar no deberia ser posible por parte del cliente, ya que usamos cedulas para para identificar a los clientes y alguien malicioso podria registrar todas las cedulas a pesar de que no sean suyas. 

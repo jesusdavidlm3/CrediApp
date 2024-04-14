@@ -1,0 +1,46 @@
+{% extends 'detail.html' %}
+{% block info_fields %}
+<div>
+	<h3>Productos</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Imagen
+				<th>ID
+				<th>Nombre
+				<th>Cantidad Comprada
+				<th>Precio al Comprar
+				<th>Monto
+			</tr>
+		</thead>
+		<tbody>
+		{% for producto in g.productos %}
+			<tr>
+				<th><img class=small-img src="{{  url_for('static', filename=producto[5] or default_image) }}" /></th>
+				{% for i in range(5) %}
+				<th>{{ producto[i]|limit_decimal }}
+				{% endfor %}
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+	<h3>Pagos</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Fecha
+				<th>Monto
+			</tr>
+		</thead>
+		<tbody>
+		{% for pago in g.pagos %}
+			<tr>
+				{% for i in range(2) %}
+				<th>{{ pago[i]|limit_decimal }}
+				{% endfor %}
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</div>
+{% endblock %}

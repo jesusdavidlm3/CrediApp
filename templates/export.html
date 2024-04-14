@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<title>{{ title }}</title>
+	<style>
+	{{ style }}
+	</style>
+</head>
+<body>
+	<div class=container>
+		<h1 style=text-align:center>{{ title }}</h1>
+		<table>
+			<thead>
+				{% for col in header %}
+					<th>{{ col }}</th>
+				{% endfor %}
+			</thead>
+			<tbody>
+				{% for row in table %}
+					<tr>
+						{% for col in row %}
+							<th>{{ col|limit_decimal }}</th>
+						{% endfor %}
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</body>

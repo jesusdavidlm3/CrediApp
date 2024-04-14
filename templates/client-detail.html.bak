@@ -1,0 +1,5 @@
+{% extends 'detail.html' %}
+{% block options %}
+<a class="boton" href="{{ [url_for('deudas'), {'cliente':request.args['key']}]|url_add }}" >Calendario de Deudas</a>
+<a class="boton" href="{{ [url_for('compras'), {'cliente':request.args['key']}]|url_add }}" >Historial de compras</a>
+{% endblock %}

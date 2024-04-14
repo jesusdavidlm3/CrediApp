@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<title>Recuperación - CrediApp</title>
+<body>
+	<h2>Recuperar Contraseña - CrediApp</h2>
+	<p>Se ha hecho una solicitud para restablecer la contraseña del usuario {{nombres}} con cedúla {{request.form["cedula"]}} a este email.</p>
+	<p>Si fue usted el que hizo la solicitud, por favor navege al enlace de recuperación para establecer la contraseña.</p>
+	<a class=button href="{{ (url_for('recover') + '?uuid=' + uuid)|external_url  }}">Recuperar Contraseña</a><br/>
+	{{ (url_for('recover') + '?uuid=' + uuid)|external_url  }}
+</body>
+</html> 
+

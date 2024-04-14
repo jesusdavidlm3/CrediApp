@@ -1,0 +1,34 @@
+{% extends 'base.html' %}  
+{% block content %}
+<h1>Calendario de Deudas
+	{% if cliente %}
+	del Cliente: {{ name }} ({{ cliente }})
+	{% endif %}
+</h1>
+<table>
+  <thead>
+	<tr class="tableHeader">
+		{% if not cliente %}
+		<th>Cliente
+		{% endif %}
+		<th>Fecha de Compra
+		<th>Fecha Limite de Deuda
+		<th>Monto Pagado
+		<th>Monto Total
+	</tr>
+  </thead>
+  <tbody>
+	{% for row in g.result %}
+	<tr>
+	  {% if not cliente %}
+	  <th>{{row[0]}}
+	  {% endif %}
+	  <th>{{row[2]}}
+	  <th>{{row[3]}}
+	  <th>{{row[4]|limit_decimal}}
+	  <th>{{row[5]|limit_decimal}}
+	</tr>
+	{% endfor %}
+  </tbody>
+</table>
+{% endblock %}
